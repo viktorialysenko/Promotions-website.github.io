@@ -17,3 +17,4 @@ Promotional website
 - [ ] Look for background info for every picture
 - [ ] Look for examples of virtual galeries
 - [ ] Choose colors and desighn of a website 
+  <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html, body{
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)), url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+} 
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+
+}
+.navbar ul a{
+    text-decoration: none;
+    color:aliceblue;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+content: '';
+width:0;
+height: 3px;
+position: absolute;
+background:#965140;
+left: 0;
+bottom: -10px;
+transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.col{flex-basis: 50%;
+}
+.col h1{
+    color: #fff;
+    font-size: 80px;
+}
+.col p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+.col button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card::hoover{
+    transform: translateY(-10px);
+}
+.h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.footer{
+    position:relative ;
+    height: 100px;
+    clear: both;
+    padding: 100px 10%;
+   background: rgba(0, 0, 0, 0.4);
+    color:beige;
+    display:flex;
+    text-align: center;
+}
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    color:beige;
+    margin-bottom: 10px;
+}
+form input{
+width:400px;
+height: 45px;
+border-radius: 4px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 40px;
+outline: none;
+border: none;
+}
+.form button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size:15px;
+    cursor:pointer;
+}
+.col-2{
+    flex-grow:2;
+}
+.footer div h3{
+    font-weight:300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-4{
+    flex-grow:2;
+    display:block;
+    color:white;
+    margin-bottom: 10px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+social-icons i{
+    font-size: 22px;
+    margin:10px;
+    cursor:pointer;
+}

@@ -69,6 +69,10 @@ transition: 0.5s;
     font-size: 80px;
 }
 .col h5{
+    color:#000;
+    line-height: 15px;
+}
+.col h4{
     color: #fff;
     line-height: 15px;
 }

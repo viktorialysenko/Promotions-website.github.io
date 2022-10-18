@@ -68,9 +68,8 @@ transition: 0.5s;
     color: #fff;
     font-size: 80px;
 }
-.col p{
+.col h5{
     color: #fff;
-    font-size: 11px;
     line-height: 15px;
 }
 .col button{
@@ -134,10 +133,7 @@ margin-bottom: 40px;
 outline: none;
 border: none;
 }
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+.form button{
     background: transparent;
     border: 2px solid white;
     color: white;
@@ -145,7 +141,10 @@ a.button {
     padding: 10px 30px;
     font-size:15px;
     cursor:pointer;
+}
+.a{
     text-decoration:none ;
+    color:#000;
 }
 .col-2{
     flex-grow:2;

@@ -134,7 +134,10 @@ margin-bottom: 40px;
 outline: none;
 border: none;
 }
-.form button{
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     background: transparent;
     border: 2px solid white;
     color: white;
@@ -142,6 +145,7 @@ border: none;
     padding: 10px 30px;
     font-size:15px;
     cursor:pointer;
+    text-decoration:none ;
 }
 .col-2{
     flex-grow:2;

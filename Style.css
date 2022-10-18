@@ -103,8 +103,9 @@ transition: 0.5s;
 .card::hoover{
     transform: translateY(-10px);
 }
-.card a{ text-decoration: none;}
-.h5{
+.card a{ text-decoration: none;
+    color: #fff;}
+.card h5{
     color: #fff;
     text-shadow: 0 0 5px #999;
 }

@@ -17,8 +17,4 @@ Promotional website
 - [ ] Look for background info for every picture
 - [ ] Look for examples of virtual galeries
 - [ ] Choose colors and desighn of a website 
-<<<<<<< HEAD
  <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
-=======
-  <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
->>>>>>> 0e37f35c80497ca4a12eb7230dd3fd37383b8775
